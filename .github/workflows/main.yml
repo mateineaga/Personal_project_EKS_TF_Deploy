@@ -2,7 +2,7 @@ name: vprofile actions
 on: workflow_dispatch
 env:
   AWS_REGION: us-east-1
-  ECR_REPOSITORY: proiect-git-ops-matei
+  ECR_REPOSITORY: proiect-git-ops-matei-ecr
   EKS_CLUSTER: proiect-git-ops-matei
 
 jobs:
